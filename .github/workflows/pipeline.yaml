@@ -1,0 +1,35 @@
+name: Deployment pipeline
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.7'
+      - name: Install Sphinx
+        run: |
+          pip install sphinx
+      - name: Build html
+        run: |
+          make html
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger deploy
+        run: |
+          curl -X POST https://api.github.com/repos/cloudmitigator/reflex-docs-infrastructure/dispatches \
+          -H 'Accept: application/vnd.github.everest-preview+json' \
+          -H 'Authorization: token $GITHUB_TOKEN' \
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_PAT }}
