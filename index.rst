@@ -11,6 +11,7 @@ Welcome to Reflex's documentation!
    :caption: Contents:
 
    about/about
+   about/cost
    usage/installation
    usage/quickstart
 
