@@ -1,3 +1,4 @@
+==================================
 How Much Does Reflex Cost?
 ==================================
 Reflex itself is open source, and the Reflex tool is free to use. *However*, Reflex works by deploying resources in your AWS account, and there is a cost to deploying and running those resources.
