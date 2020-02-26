@@ -14,9 +14,6 @@ Welcome to Reflex's documentation!
    usage/installation
    usage/quickstart
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
+Search the Docs
+==================================
 * :ref:`search`
