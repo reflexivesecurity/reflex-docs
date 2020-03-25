@@ -1,13 +1,7 @@
 What is Reflex?
 ==================================
 
-Reflex is a collection of open source tools and modules that allow you to enforce security best practices in your cloud environment. Reflex works by deploying resources which monitor your environment, and automatically fixes resources that are configured in an insecure manner. Best of all, Reflex is event driven, so problems are fixed as they happen. No manual intervention required.
-
-Why should I use Reflex?
----------------------------
-Reflex helps you quickly and easily secure the resources in your AWS account. It provides the most important security controls that we believe should be implemented in every account out of the box, and a mechanism to add your own controls if you need additional protections.
-
-And since Reflex is open source and free to use, it's easy and low risk to try out Reflex and see if it meets your cloud infrastructure security needs.
+Reflex is a tool that enables organizations to enforce security best practices in their cloud environment. Reflex works by deploying resources which monitor your environment, and automatically detect or fix resources that are configured in an insecure manner. Best of all, Reflex is event driven, so problems are identified as they happen. No manual intervention or synchronized polling required.
 
 Reflex Architecture
 -----------------------
