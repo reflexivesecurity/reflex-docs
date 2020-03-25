@@ -1,4 +1,4 @@
-Reflex Cli
+Using the Cli
 ==================================
 
 Requirements
