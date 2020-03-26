@@ -11,7 +11,7 @@ Welcome to the documentation for the reflex event driven security auomation fram
    usage/installation
    usage/quickstart
    usage/cli
-   usage/removal
+   usage/infrastructure
 
 Search the Docs
 ==================================
