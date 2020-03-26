@@ -15,6 +15,7 @@ Welcome to Reflex's documentation!
    about/cost
    usage/installation
    usage/quickstart
+   usage/cli
 
 Search the Docs
 ==================================
