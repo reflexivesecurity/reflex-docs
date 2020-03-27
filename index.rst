@@ -1,21 +1,17 @@
-.. Reflex documentation master file, created by
-   sphinx-quickstart on Wed Feb  5 15:30:01 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Reflex: Event Driven Security Automation
+=========================================
 
-Welcome to Reflex's documentation!
-==================================
+Welcome to the documentation for the reflex event driven security auomation framework.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    about/about
-   about/why-reflex
-   about/cost
    usage/installation
    usage/quickstart
    usage/cli
+   usage/infrastructure
 
 Search the Docs
 ==================================

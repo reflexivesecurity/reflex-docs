@@ -1,4 +1,4 @@
-Reflex Quickstart
+Reflex CLI Quickstart
 ==================================
 
 Getting started with Reflex is easy, and can be done in as little as 10 minutes.
@@ -7,19 +7,6 @@ Getting started with Reflex is easy, and can be done in as little as 10 minutes.
 Install the Reflex CLI
 ----------------------------------
 If you haven't yet installed the Reflex CLI, refer to :doc:`/usage/installation`
-
-
-Install Terraform
-----------------------------------
-Reflex uses Terraform under the hood, so you'll need to `install that as well. <https://learn.hashicorp.com/terraform/getting-started/install.html>`_
-
-
-Set Up AWS Provider
-----------------------------------
-If you're already launching Terraform with an AWS provider setup, continue using that provider confirguration, otherwise, continue using roles or credentials as:
-
-
-Reflex currently only supports AWS, so you'll need to setup AWS credentials or a role for Terraform to utilize. For instructions on setting up your credentials see `the AWS documentation. <https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html>`_
 
 
 Generating a Reflex Configuration
@@ -35,17 +22,17 @@ Generating Terraform Modules
 ----------------------------------
 Once you've created a ``reflex.yaml`` configuration file, you're ready to generate Terraform modules. Run ``reflex build`` to generate your Terraform modules. This will output a Terraform file for each measure you have specified in your configuration. These files will be created in a new ``reflex_out`` directory by default, but this is configurable with the ``-o`` option.
 
+Deploy With Terraform
+------------------------
 
 Run Terraform Init
-----------------------------------
+^^^^^^^^^^^^^^^^^^^^^
 Once you've generated your Terraform files, you're ready to start deploying your resources. First run ``terraform init`` from your ``reflex_out`` directory (or whatever you decided to name it). This will download all the required modules and perform all steps necessary to deploy your resources.
 
-
 Run Terraform Plan (Optional)
-----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Once you've generated your Terraform files and run ``terraform init`` you're ready to deploy your resources. If you want to see what resources will be deployed before you go ahead, you can run ``terraform plan`` to get a list of what resources will be added to your environment. Each measure will create multiple resources, so don't be alarmed that the number of resources being created is much larger than the number of measures you selected.
 
-
 Run Terraform Apply
-----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 If you are ready to move forward and actually deploy your resources, go ahead and run ``terraform apply``, and Terraform will start deploying resources to your environment. As soon as it finishes running, your resources a deployed and you're done!
