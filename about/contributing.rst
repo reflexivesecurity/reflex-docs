@@ -9,7 +9,7 @@ These guidelines are provided to make the process of contributing to Reflex an e
 
 Community Guidelines
 ----------------------------------
-Always treat others in a kind, respectful manner. If you need more detailed guidance, refer to the [Python Community Code of Conduct](https://www.python.org/psf/codeofconduct/).
+Always treat others in a kind, respectful manner. If you need more detailed guidance, refer to the `Python Community Code of Conduct <https://www.python.org/psf/codeofconduct/>`_.
 
 How to Contribute
 ----------------------------------
@@ -20,7 +20,7 @@ Contributing Code
 1. Create your own fork of the code
 2. Do the changes in your fork
 3. If you like the change and think the project could use it:
-    * Be sure you have followed the code style for the project. (We format our code with [black](https://black.readthedocs.io).)
+    * Be sure you have followed the code style for the project. (We format our code with `black <https://black.readthedocs.io>`_.)
     * Create a pull request and link any associated issues.
 
 Reporting a Bug
