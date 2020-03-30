@@ -12,6 +12,7 @@ Welcome to the documentation for the reflex event driven security auomation fram
    usage/quickstart
    usage/cli
    usage/infrastructure
+   about/contributing
 
 Search the Docs
 ==================================
