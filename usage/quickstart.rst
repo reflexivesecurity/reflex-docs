@@ -6,8 +6,7 @@ Getting started with Reflex is easy, and can be done in as little as 10 minutes.
 
 Install the Reflex CLI
 ----------------------------------
-If you haven't yet installed the Reflex CLI, refer to :doc:`/usage/installation`
-
+To install the Reflex CLI just run ``pip install reflex-cli``
 
 Generating a Reflex Configuration
 ----------------------------------
