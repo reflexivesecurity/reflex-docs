@@ -7,7 +7,7 @@ To deploy the reflex infrastructure, you will need to use terraform and have an 
 
 Install Python
 ^^^^^^^^^^^^^^^^^^^^^^^^
-If using the CLI, you will need to `install python. <https://www.python.org/downloads/>`_
+If using the CLI, you will need to `install python3. <https://www.python.org/downloads/>`_
 
 Install Terraform
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -23,6 +23,8 @@ Reflex currently only supports AWS, so you'll need to setup AWS credentials or a
 CLI Installation
 -------------------------
 To get started with Reflex, install the Reflex CLI: ``pip install reflex-cli``
+
+Note: when using the system's python3 installation, the above command may be ``pip3 install reflex-cli``. We recommend python environment management via ``pyenv`` or ``pipenv``. 
 
 Terraform Module Integration
 ----------------------------------
