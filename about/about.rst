@@ -48,6 +48,23 @@ For more information see `AWS' Lambda Pricing Documentation <https://aws.amazon.
 
 SNS
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-By default Reflex will create SNS Topics and publish messages to them to notify you of what is happening in your environment. SNS offers one thousand free email publishes per month, with a cost of $2.00 per 100,000 after that. For small organizations the cost of SNS should be low or nothing, but as always it depends on your environment and deployed rules.
+By default, reflex will create SNS Topics and publish messages to them to notify you of what is happening in your environment. SNS offers one thousand free email publishes per month, with a cost of $2.00 per 100,000 after that. For small organizations the cost of SNS should be low or nothing, but as always it depends on your environment and deployed rules.
 
 For more information see `AWS' SNS Pricing Documentation <https://aws.amazon.com/sns/pricing/>`_.
+
+Multi-region Support
+----------------------------
+
+In a default implementation of reflex, a single region is monitored for events. If you are using a single region and preventing access (whether via SCP or IAM), the default implementation of reflex should suffice. However, if you would like to monitor other regions, reflex provides a configuration option for forwarding CloudWatch Events to a central region for processing. 
+
+This infrastructure is created similarly to the output of `reflex build` in that it is a collection of terraform files that are to deploy infrastructure. To create region-forwarding infrastructure, you can either extend the provider configuration (outlined below) or run `reflex region --region [region_to_forward]` in the same directory as your configuration file. 
+
+
+.. code-block:: yaml
+
+  providers:
+   - aws:
+      region: us-east-1
+      forwarding_regions:
+        - us-east-2
+        - eu-west-1

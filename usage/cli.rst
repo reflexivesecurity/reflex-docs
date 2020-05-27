@@ -35,6 +35,14 @@ Available Commands
 
 - Will show all possible reflex rules, and the latest version of the rules.
 
+**region**
+
+ ::
+
+  reflex region
+
+- Will provision region infrastructure build directory when passed a valid region with `--region`. 
+
 
 **create**
 
