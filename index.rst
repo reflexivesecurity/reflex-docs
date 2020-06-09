@@ -1,7 +1,9 @@
+:github_url: https://www.github.com/cloudmitigator/reflex-cli
+
 Reflex: Event Driven Security Automation
 =========================================
 
-Welcome to the documentation for the reflex event driven security auomation framework.
+Welcome to the documentation for the Reflex event driven security automation framework.
 
 .. toctree::
    :maxdepth: 2
