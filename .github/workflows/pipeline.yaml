@@ -15,9 +15,9 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: '3.7'
-      - name: Install Sphinx
+      - name: Install requirements
         run: |
-          pip install sphinx
+          pip install -r requirements.txt
       - name: Build html
         run: |
           make html
