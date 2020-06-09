@@ -1,3 +1,5 @@
+:github_url: https://www.github.com/cloudmitigator/reflex-cli
+
 Contributing to Reflex
 ==================================
 
@@ -39,6 +41,6 @@ When filing an issue, make sure to address these five points:
 5. What did you see instead?
 
 Requesting Features or Enhancements
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you you have a desire for a new feature, open an issue on the pertinent GitHub repo which describes the feature you would like to see, why you need it, and how it should work.

@@ -1,9 +1,11 @@
+:github_url: https://www.github.com/cloudmitigator/reflex-cli
+
 Installing Reflex
 ==================================
 
 Dependencies
 ----------------
-To deploy the reflex infrastructure, you will need to use terraform and have an AWS account deploy to. 
+To deploy the reflex infrastructure, you will need to use terraform and have an AWS account to deploy to.
 
 Install Python
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -35,7 +37,7 @@ If you'd like to use our reflex terraform modules independently, simply referenc
 
 As an example of this, the following is the output of a built module using the reflex CLI's ``reflex build`` command:
 
-.. code-block:: hcl
+.. code-block:: terraform
 
   module "reflex-aws-enforce-s3-encryption" {
     source            = "git::https://github.com/cloudmitigator/reflex-aws-enforce-s3-encryption.git?ref=v0.4.2"
