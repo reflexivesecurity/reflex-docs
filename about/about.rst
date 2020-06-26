@@ -1,5 +1,3 @@
-:github_url: https://www.github.com/cloudmitigator/reflex-cli
-
 What is Reflex?
 ==================================
 
