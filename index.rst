@@ -7,12 +7,13 @@ Welcome to the documentation for the Reflex event driven security automation fra
    :maxdepth: 2
    :caption: Contents:
 
-   about/about
-   usage/installation
-   usage/quickstart
-   usage/cli
-   usage/infrastructure
-   about/contributing
+   about
+   installation
+   quickstart
+   infrastructure
+   reflex-cli/docs/index
+   reflex-core/docs/index
+   contributing
 
 Search the Docs
 ==================================
