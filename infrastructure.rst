@@ -3,7 +3,7 @@ Managing Reflex Infrastructure
 
 Deploying Reflex Infrastructure
 ---------------------------------
-Refer to our generating and deployment documentation in the :doc:`/usage/quickstart` for how to work with our terraform output.
+Refer to our generating and deployment documentation in the :doc:`/quickstart` for how to work with our terraform output.
 
 Applying Updates
 --------------------------------
