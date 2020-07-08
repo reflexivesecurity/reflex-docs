@@ -15,6 +15,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath('..'))
 sys.path.insert(0, os.path.abspath('reflex-core'))
+sys.path.insert(0, os.path.abspath('reflex-cli'))
 
 
 # -- Project information -----------------------------------------------------
