@@ -8,7 +8,7 @@ Reflex Architecture
 Reflex leverages the **CloudWatch Events** resource as the main source of active account monitoring within AWS. Our architecture uses this as the foundational message source forwarding to an **SQS Queue** target that will then be ingested by a custom **Lambda Function**. Once the logic in that message is evaluated by the Lambda function and the event is found to be non compliant, an alert will be sent out via a central **SNS Topic** to subscribed parties. If the specific rule allows for remediation
 functionality, the remediation will take place and results of remediation will be included in the alert. 
 
-.. image:: reflex-architecture.png 
+.. image:: _static/reflex-architecture.png
    :width: 800pt
 
 How Much Does Reflex Cost
