@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = "Reflex"
-copyright = "2020, CloudMitigator"
-author = "CloudMitigator"
+copyright = "2020, Reflexive Security"
+author = "ReflexiveSecurity"
 
 # The full version, including alpha/beta/rc tags
 release = "0.1.0"

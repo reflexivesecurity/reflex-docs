@@ -2,4 +2,4 @@
 
 Documentation for Reflex
 
-Hosted at https://docs.cloudmitigator.com
+Hosted at https://docs.reflexivesecurity.com

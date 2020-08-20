@@ -26,7 +26,7 @@ Contributing Code
 Reporting a Bug
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you find a security vulnerability, do NOT open an issue. Email info@cloudmitigator.com instead.
+If you find a security vulnerability, do NOT open an issue. Email info@reflexivesecurity.com instead.
 
 If you've found a bug that isn't a security vulnerability, please open an issue in the relevant repository.
 
