@@ -30,7 +30,6 @@ is performed.
 An example is provided below for reference.
 
 .. code-block:: python
-    :linenos:
 
     """ Example customized AWSRule """
     from reflex_core import AWSRuleInterface
