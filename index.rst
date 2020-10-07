@@ -11,6 +11,7 @@ Welcome to the documentation for the Reflex event driven security automation fra
    installation
    quickstart
    infrastructure
+   customization
    reflex-cli/docs/index
    reflex-core/docs/index
    contributing
