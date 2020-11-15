@@ -8,12 +8,12 @@ Detective Reflex Rules
 ------------------------
 
 All Reflex rules are capable of operating in detection only mode. To see a list
-of all official Reflex Rules, you can `visit our GitHub.
+of all official Reflex Rules, you can `visit our GitHub
 <https://github.com/search?q=topic%3Arules+org%3Areflexivesecurity+fork%3Atrue>`_.
 
 Remediative Reflex Rules
 ------------------------
 
 Only some Reflex Rules support automatic remediation. For a list of official
-Reflex Rules that support automatic remediation, `visit our GitHub.
+Reflex Rules that support automatic remediation, `visit our GitHub
 <https://github.com/search?q=topic%3Aremediate+org%3Areflexivesecurity+fork%3Atrue>`_.
