@@ -15,6 +15,17 @@
          x="162.08452"
          y="0.95173484" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath27">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.47949"
+         id="rect29"
+         width="287.69418"
+         height="287.69418"
+         x="176.06247"
+         y="0.6209563" />
+    </clipPath>
   </defs>
   <g
      id="g73">
@@ -30,7 +41,8 @@
   </g>
   <g
      id="g78"
-     transform="matrix(2.0855478,0,0,2.0855478,-367.18671,-55.295034)">
+     transform="matrix(2.0855478,0,0,2.0855478,-367.18671,-1.295034)"
+     clip-path="url(#clipPath27)">
     <title
        id="title75">Layer 1</title>
     <path
