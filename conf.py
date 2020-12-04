@@ -54,7 +54,7 @@ html_theme_path = [
     "_themes",
 ]
 html_theme_options = {
-    "logo": "reflex-logo.png",
+    "logo": "reflex-logo.svg",
     "logo_name": True,
     "github_user": "cloudmitigator",
     "github_repo": "reflex-cli",
