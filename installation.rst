@@ -4,6 +4,7 @@ Installing Reflex
 Dependencies
 ----------------
 To deploy the reflex infrastructure, you will need to use terraform and have an AWS account to deploy to.
+You will also need CloudTrail configured in your account. For information on setting up CloudTrail see `the AWS Documentation. <https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-tutorial.html>`_
 
 Install Python
 ^^^^^^^^^^^^^^^^^^^^^^^^
