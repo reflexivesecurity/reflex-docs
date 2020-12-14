@@ -72,8 +72,7 @@ This infrastructure is created similarly to the output of `reflex build` in that
 Multi-account Support
 ----------------------------
 
-In a default implementation of reflex, a single account is monitored for events. If your organization leverages many accounts and wishes to monitor them all through a single reflex deploy, we allow for the configuration of a multi-account forwarder to a central account. In this setup, there is an account deployed with normal reflex infrastructure, called a "parent" account and then many "child" accounts that forward their rule findings to the central account for processing. In the "child"
-accounts, you will find just event rules, SNS topics, and IAM roles for cross account describe/remediation.
+In a default implementation of reflex, a single account is monitored for events. If your organization leverages many accounts and wishes to monitor them all through a single reflex deploy, we allow for the configuration of a multi-account forwarder to a central account. In this setup, there is an account deployed with normal reflex infrastructure, called a "parent" account and then many "child" accounts that forward their rule findings to the central account for processing. In the "child" accounts, you will find just event rules, SNS topics, and IAM roles for cross account describe/remediation.
 
 Similarly to the multi-region build output, we can create multi-account output with a configuration block update like below. This will create separate output directories needed to be deployed separately with terraform in each account. *Note*: If specifying child accounts, it is required to specify parent accounts in the configuration below. Specifying neither child or parent accounts will create a single account build. 
 
