@@ -42,12 +42,12 @@ An example is provided below for reference.
             super().__init__(event)
 
             # You can add individual functions
-            self.add_pre_compliance_check_functions(self.my_custom_pre_compliance_check_function)
-            self.add_post_compliance_check_functions(self.my_custom_post_compliance_check_function)
+            self.pre_compliance_check_functions.append(self.my_custom_pre_compliance_check_function)
+            self.post_compliance_check_functions.append(self.my_custom_post_compliance_check_function)
 
             # Or a list of one or more functions
-            self.add_pre_remediation_functions([self.my_custom_pre_remediation_function])
-            self.add_post_remediation_functions([self.my_custom_post_remediation_function])
+            self.pre_remediation_functions += [self.my_custom_pre_remediation_function]
+            self.post_remediation_functions += [self.my_custom_post_remediation_function]
 
         def my_custom_pre_compliance_check_function(self):
             # Your custom code here
